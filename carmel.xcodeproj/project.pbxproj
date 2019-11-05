@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		410B484671886F1C0B414712 /* Pods_carmelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F38FBA3C099A0C7C4A9E21 /* Pods_carmelUITests.framework */; };
+		412C3374BCFE38EE1AEBA071 /* Pods_carmelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E93F512781848439415B1D /* Pods_carmelTests.framework */; };
 		49DDD1F12170E30B0088CCEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DDD1F02170E30B0088CCEC /* AppDelegate.swift */; };
 		49DDD1F32170E30C0088CCEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DDD1F22170E30C0088CCEC /* ViewController.swift */; };
 		49DDD1F62170E30C0088CCEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DDD1F42170E30C0088CCEC /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		49DDD1FB2170E30E0088CCEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DDD1F92170E30E0088CCEC /* LaunchScreen.storyboard */; };
 		49DDD2062170E30E0088CCEC /* carmelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DDD2052170E30E0088CCEC /* carmelTests.swift */; };
 		49DDD2112170E30E0088CCEC /* carmelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DDD2102170E30E0088CCEC /* carmelUITests.swift */; };
+		49DDD21F2171F7510088CCEC /* notReachableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DDD21E2171F7510088CCEC /* notReachableViewController.swift */; };
+		9618016521984C8F008CD281 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618016421984C8F008CD281 /* LandingPage.swift */; };
+		C0C6E676C0A61C87CCE7C195 /* Pods_carmel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CDD6E8378A4B47653B71E4 /* Pods_carmel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2CD4074C8DB4657A6B76FC1C /* Pods-carmelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carmelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-carmelTests/Pods-carmelTests.release.xcconfig"; sourceTree = "<group>"; };
+		3793B9ABAA5146B1667AE19B /* Pods-carmelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carmelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-carmelUITests/Pods-carmelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3ADB1D19B01193721138DC7D /* Pods-carmelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carmelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-carmelTests/Pods-carmelTests.debug.xcconfig"; sourceTree = "<group>"; };
 		49DDD1ED2170E30B0088CCEC /* carmel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carmel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DDD1F02170E30B0088CCEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49DDD1F22170E30C0088CCEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		49DDD20C2170E30E0088CCEC /* carmelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carmelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DDD2102170E30E0088CCEC /* carmelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carmelUITests.swift; sourceTree = "<group>"; };
 		49DDD2122170E30E0088CCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49DDD21E2171F7510088CCEC /* notReachableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notReachableViewController.swift; sourceTree = "<group>"; };
+		4B887624648F925DC6E55148 /* Pods-carmelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carmelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-carmelUITests/Pods-carmelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62F38FBA3C099A0C7C4A9E21 /* Pods_carmelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_carmelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DD6CB88E645D18F11BF024 /* Pods-carmel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carmel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-carmel/Pods-carmel.debug.xcconfig"; sourceTree = "<group>"; };
+		72CDD6E8378A4B47653B71E4 /* Pods_carmel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_carmel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9618016421984C8F008CD281 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		C1D7C914385527158E524629 /* Pods-carmel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carmel.release.xcconfig"; path = "Pods/Target Support Files/Pods-carmel/Pods-carmel.release.xcconfig"; sourceTree = "<group>"; };
+		D1E93F512781848439415B1D /* Pods_carmelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_carmelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0C6E676C0A61C87CCE7C195 /* Pods_carmel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				412C3374BCFE38EE1AEBA071 /* Pods_carmelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				410B484671886F1C0B414712 /* Pods_carmelUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		045CF9B43BDFC2D61C96FF9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72CDD6E8378A4B47653B71E4 /* Pods_carmel.framework */,
+				D1E93F512781848439415B1D /* Pods_carmelTests.framework */,
+				62F38FBA3C099A0C7C4A9E21 /* Pods_carmelUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		49DDD1E42170E30B0088CCEC = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				49DDD2042170E30E0088CCEC /* carmelTests */,
 				49DDD20F2170E30E0088CCEC /* carmelUITests */,
 				49DDD1EE2170E30B0088CCEC /* Products */,
+				C629800877BAED6CECCDA07D /* Pods */,
+				045CF9B43BDFC2D61C96FF9A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +130,9 @@
 			children = (
 				49DDD1F02170E30B0088CCEC /* AppDelegate.swift */,
 				49DDD1F22170E30C0088CCEC /* ViewController.swift */,
+				9618016421984C8F008CD281 /* LandingPage.swift */,
 				49DDD1F42170E30C0088CCEC /* Main.storyboard */,
+				49DDD21E2171F7510088CCEC /* notReachableViewController.swift */,
 				49DDD1F72170E30E0088CCEC /* Assets.xcassets */,
 				49DDD1F92170E30E0088CCEC /* LaunchScreen.storyboard */,
 				49DDD1FC2170E30E0088CCEC /* Info.plist */,
@@ -125,6 +158,19 @@
 			path = carmelUITests;
 			sourceTree = "<group>";
 		};
+		C629800877BAED6CECCDA07D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63DD6CB88E645D18F11BF024 /* Pods-carmel.debug.xcconfig */,
+				C1D7C914385527158E524629 /* Pods-carmel.release.xcconfig */,
+				3ADB1D19B01193721138DC7D /* Pods-carmelTests.debug.xcconfig */,
+				2CD4074C8DB4657A6B76FC1C /* Pods-carmelTests.release.xcconfig */,
+				4B887624648F925DC6E55148 /* Pods-carmelUITests.debug.xcconfig */,
+				3793B9ABAA5146B1667AE19B /* Pods-carmelUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49DDD2152170E30E0088CCEC /* Build configuration list for PBXNativeTarget "carmel" */;
 			buildPhases = (
+				35C43535391DB8FF873434A1 /* [CP] Check Pods Manifest.lock */,
 				49DDD1E92170E30B0088CCEC /* Sources */,
 				49DDD1EA2170E30B0088CCEC /* Frameworks */,
 				49DDD1EB2170E30B0088CCEC /* Resources */,
+				5FA84D911183E574769F4756 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49DDD2182170E30E0088CCEC /* Build configuration list for PBXNativeTarget "carmelTests" */;
 			buildPhases = (
+				00BA1421C1BA01CF0B81E694 /* [CP] Check Pods Manifest.lock */,
 				49DDD1FD2170E30E0088CCEC /* Sources */,
 				49DDD1FE2170E30E0088CCEC /* Frameworks */,
 				49DDD1FF2170E30E0088CCEC /* Resources */,
@@ -167,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49DDD21B2170E30E0088CCEC /* Build configuration list for PBXNativeTarget "carmelUITests" */;
 			buildPhases = (
+				F44143AF2CB6DD1B14151224 /* [CP] Check Pods Manifest.lock */,
 				49DDD2082170E30E0088CCEC /* Sources */,
 				49DDD2092170E30E0088CCEC /* Frameworks */,
 				49DDD20A2170E30E0088CCEC /* Resources */,
@@ -251,12 +301,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00BA1421C1BA01CF0B81E694 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-carmelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35C43535391DB8FF873434A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-carmel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FA84D911183E574769F4756 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-carmel/Pods-carmel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-carmel/Pods-carmel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F44143AF2CB6DD1B14151224 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-carmelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		49DDD1E92170E30B0088CCEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49DDD21F2171F7510088CCEC /* notReachableViewController.swift in Sources */,
 				49DDD1F32170E30C0088CCEC /* ViewController.swift in Sources */,
+				9618016521984C8F008CD281 /* LandingPage.swift in Sources */,
 				49DDD1F12170E30B0088CCEC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,15 +557,17 @@
 		};
 		49DDD2162170E30E0088CCEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63DD6CB88E645D18F11BF024 /* Pods-carmel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QAP957CWB7;
 				INFOPLIST_FILE = carmel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = santhosh.carmel;
+				PRODUCT_BUNDLE_IDENTIFIER = techvegas.carmel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,15 +576,17 @@
 		};
 		49DDD2172170E30E0088CCEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D7C914385527158E524629 /* Pods-carmel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QAP957CWB7;
 				INFOPLIST_FILE = carmel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = santhosh.carmel;
+				PRODUCT_BUNDLE_IDENTIFIER = techvegas.carmel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,6 +595,7 @@
 		};
 		49DDD2192170E30E0088CCEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ADB1D19B01193721138DC7D /* Pods-carmelTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +616,7 @@
 		};
 		49DDD21A2170E30E0088CCEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CD4074C8DB4657A6B76FC1C /* Pods-carmelTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +637,7 @@
 		};
 		49DDD21C2170E30E0088CCEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B887624648F925DC6E55148 /* Pods-carmelUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +657,7 @@
 		};
 		49DDD21D2170E30E0088CCEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3793B9ABAA5146B1667AE19B /* Pods-carmelUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
