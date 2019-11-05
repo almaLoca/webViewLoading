@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var closeBtn: UIButton!
     var webView: WKWebView!
-    let link  = "http://sandone.in/"
+    let link  = "https://sandone.in/"
     
     var d = false
     var activityIndicator: UIActivityIndicatorView?
